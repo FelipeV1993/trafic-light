@@ -10,3 +10,78 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.container {
+    font-family: arial;
+    font-size: 24px;
+    margin: 25px;
+    width: 350px;
+    height: 250px;
+    outline: dashed 1px black;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .child {
+    width: 75px;
+    height: 200px;
+    background-color: black;
+    border-radius: 50px;
+    /* Center horizontally*/
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .rojo {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50px;
+    /* Center horizontally*/
+    margin: 0 auto;
+
+  }
+  .rojo-claro {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(232, 123, 123);
+    /* Center horizontally*/
+    margin: 0 auto;
+  }
+  .amarillo {
+      width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: yellow;
+  /* Center horizontally*/
+  margin: 0 auto;
+
+  }
+  .amarillo-claro {
+    width: 50px;
+height: 50px;
+border-radius: 50px;
+background-color: rgb(246, 246, 140);
+/* Center horizontally*/
+margin: 0 auto;
+}
+  .verde {
+    width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: green;
+  /* Center horizontally*/
+  margin: 0 auto;
+
+  }
+
+  .verde-claro {
+    width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: rgb(104, 179, 104);
+  /* Center horizontally*/
+  margin: 0 auto;
+  
+  }
